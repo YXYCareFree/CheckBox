@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A19643A202C3EFC00A3DC8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A196439202C3EFC00A3DC8C /* AppDelegate.m */; };
+		9A19643D202C3EFC00A3DC8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A19643C202C3EFC00A3DC8C /* ViewController.m */; };
+		9A196440202C3EFC00A3DC8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A19643E202C3EFC00A3DC8C /* Main.storyboard */; };
+		9A196442202C3EFC00A3DC8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A196441202C3EFC00A3DC8C /* Assets.xcassets */; };
+		9A196445202C3EFC00A3DC8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A196443202C3EFC00A3DC8C /* LaunchScreen.storyboard */; };
+		9A196448202C3EFC00A3DC8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A196447202C3EFC00A3DC8C /* main.m */; };
+		9A196452202C3EFC00A3DC8C /* YXYCheckBoxViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A196451202C3EFC00A3DC8C /* YXYCheckBoxViewTests.m */; };
+		9A19645D202C3EFC00A3DC8C /* YXYCheckBoxViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A19645C202C3EFC00A3DC8C /* YXYCheckBoxViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A19644E202C3EFC00A3DC8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A19642D202C3EFC00A3DC8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A196434202C3EFC00A3DC8C;
+			remoteInfo = YXYCheckBoxView;
+		};
+		9A196459202C3EFC00A3DC8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A19642D202C3EFC00A3DC8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A196434202C3EFC00A3DC8C;
+			remoteInfo = YXYCheckBoxView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A196435202C3EFC00A3DC8C /* YXYCheckBoxView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXYCheckBoxView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A196438202C3EFC00A3DC8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A196439202C3EFC00A3DC8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A19643B202C3EFC00A3DC8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9A19643C202C3EFC00A3DC8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A19643F202C3EFC00A3DC8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A196441202C3EFC00A3DC8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A196444202C3EFC00A3DC8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A196446202C3EFC00A3DC8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A196447202C3EFC00A3DC8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A19644D202C3EFC00A3DC8C /* YXYCheckBoxViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXYCheckBoxViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A196451202C3EFC00A3DC8C /* YXYCheckBoxViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYCheckBoxViewTests.m; sourceTree = "<group>"; };
+		9A196453202C3EFC00A3DC8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A196458202C3EFC00A3DC8C /* YXYCheckBoxViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXYCheckBoxViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A19645C202C3EFC00A3DC8C /* YXYCheckBoxViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYCheckBoxViewUITests.m; sourceTree = "<group>"; };
+		9A19645E202C3EFC00A3DC8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A196432202C3EFC00A3DC8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A19644A202C3EFC00A3DC8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A196455202C3EFC00A3DC8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A19642C202C3EFC00A3DC8C = {
+			isa = PBXGroup;
+			children = (
+				9A196437202C3EFC00A3DC8C /* YXYCheckBoxView */,
+				9A196450202C3EFC00A3DC8C /* YXYCheckBoxViewTests */,
+				9A19645B202C3EFC00A3DC8C /* YXYCheckBoxViewUITests */,
+				9A196436202C3EFC00A3DC8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A196436202C3EFC00A3DC8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A196435202C3EFC00A3DC8C /* YXYCheckBoxView.app */,
+				9A19644D202C3EFC00A3DC8C /* YXYCheckBoxViewTests.xctest */,
+				9A196458202C3EFC00A3DC8C /* YXYCheckBoxViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A196437202C3EFC00A3DC8C /* YXYCheckBoxView */ = {
+			isa = PBXGroup;
+			children = (
+				9A196438202C3EFC00A3DC8C /* AppDelegate.h */,
+				9A196439202C3EFC00A3DC8C /* AppDelegate.m */,
+				9A19643B202C3EFC00A3DC8C /* ViewController.h */,
+				9A19643C202C3EFC00A3DC8C /* ViewController.m */,
+				9A19643E202C3EFC00A3DC8C /* Main.storyboard */,
+				9A196441202C3EFC00A3DC8C /* Assets.xcassets */,
+				9A196443202C3EFC00A3DC8C /* LaunchScreen.storyboard */,
+				9A196446202C3EFC00A3DC8C /* Info.plist */,
+				9A196447202C3EFC00A3DC8C /* main.m */,
+			);
+			path = YXYCheckBoxView;
+			sourceTree = "<group>";
+		};
+		9A196450202C3EFC00A3DC8C /* YXYCheckBoxViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A196451202C3EFC00A3DC8C /* YXYCheckBoxViewTests.m */,
+				9A196453202C3EFC00A3DC8C /* Info.plist */,
+			);
+			path = YXYCheckBoxViewTests;
+			sourceTree = "<group>";
+		};
+		9A19645B202C3EFC00A3DC8C /* YXYCheckBoxViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A19645C202C3EFC00A3DC8C /* YXYCheckBoxViewUITests.m */,
+				9A19645E202C3EFC00A3DC8C /* Info.plist */,
+			);
+			path = YXYCheckBoxViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A196434202C3EFC00A3DC8C /* YXYCheckBoxView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A196461202C3EFC00A3DC8C /* Build configuration list for PBXNativeTarget "YXYCheckBoxView" */;
+			buildPhases = (
+				9A196431202C3EFC00A3DC8C /* Sources */,
+				9A196432202C3EFC00A3DC8C /* Frameworks */,
+				9A196433202C3EFC00A3DC8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YXYCheckBoxView;
+			productName = YXYCheckBoxView;
+			productReference = 9A196435202C3EFC00A3DC8C /* YXYCheckBoxView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A19644C202C3EFC00A3DC8C /* YXYCheckBoxViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A196464202C3EFC00A3DC8C /* Build configuration list for PBXNativeTarget "YXYCheckBoxViewTests" */;
+			buildPhases = (
+				9A196449202C3EFC00A3DC8C /* Sources */,
+				9A19644A202C3EFC00A3DC8C /* Frameworks */,
+				9A19644B202C3EFC00A3DC8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A19644F202C3EFC00A3DC8C /* PBXTargetDependency */,
+			);
+			name = YXYCheckBoxViewTests;
+			productName = YXYCheckBoxViewTests;
+			productReference = 9A19644D202C3EFC00A3DC8C /* YXYCheckBoxViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A196457202C3EFC00A3DC8C /* YXYCheckBoxViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A196467202C3EFC00A3DC8C /* Build configuration list for PBXNativeTarget "YXYCheckBoxViewUITests" */;
+			buildPhases = (
+				9A196454202C3EFC00A3DC8C /* Sources */,
+				9A196455202C3EFC00A3DC8C /* Frameworks */,
+				9A196456202C3EFC00A3DC8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A19645A202C3EFC00A3DC8C /* PBXTargetDependency */,
+			);
+			name = YXYCheckBoxViewUITests;
+			productName = YXYCheckBoxViewUITests;
+			productReference = 9A196458202C3EFC00A3DC8C /* YXYCheckBoxViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A19642D202C3EFC00A3DC8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = yxy;
+				TargetAttributes = {
+					9A196434202C3EFC00A3DC8C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9A19644C202C3EFC00A3DC8C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9A196434202C3EFC00A3DC8C;
+					};
+					9A196457202C3EFC00A3DC8C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9A196434202C3EFC00A3DC8C;
+					};
+				};
+			};
+			buildConfigurationList = 9A196430202C3EFC00A3DC8C /* Build configuration list for PBXProject "YXYCheckBoxView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A19642C202C3EFC00A3DC8C;
+			productRefGroup = 9A196436202C3EFC00A3DC8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A196434202C3EFC00A3DC8C /* YXYCheckBoxView */,
+				9A19644C202C3EFC00A3DC8C /* YXYCheckBoxViewTests */,
+				9A196457202C3EFC00A3DC8C /* YXYCheckBoxViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A196433202C3EFC00A3DC8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A196445202C3EFC00A3DC8C /* LaunchScreen.storyboard in Resources */,
+				9A196442202C3EFC00A3DC8C /* Assets.xcassets in Resources */,
+				9A196440202C3EFC00A3DC8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A19644B202C3EFC00A3DC8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A196456202C3EFC00A3DC8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A196431202C3EFC00A3DC8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A19643D202C3EFC00A3DC8C /* ViewController.m in Sources */,
+				9A196448202C3EFC00A3DC8C /* main.m in Sources */,
+				9A19643A202C3EFC00A3DC8C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A196449202C3EFC00A3DC8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A196452202C3EFC00A3DC8C /* YXYCheckBoxViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A196454202C3EFC00A3DC8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A19645D202C3EFC00A3DC8C /* YXYCheckBoxViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A19644F202C3EFC00A3DC8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A196434202C3EFC00A3DC8C /* YXYCheckBoxView */;
+			targetProxy = 9A19644E202C3EFC00A3DC8C /* PBXContainerItemProxy */;
+		};
+		9A19645A202C3EFC00A3DC8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A196434202C3EFC00A3DC8C /* YXYCheckBoxView */;
+			targetProxy = 9A196459202C3EFC00A3DC8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A19643E202C3EFC00A3DC8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A19643F202C3EFC00A3DC8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A196443202C3EFC00A3DC8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A196444202C3EFC00A3DC8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A19645F202C3EFC00A3DC8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A196460202C3EFC00A3DC8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A196462202C3EFC00A3DC8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YXYCheckBoxView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yangxiaoyu.YXYCheckBoxView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A196463202C3EFC00A3DC8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YXYCheckBoxView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yangxiaoyu.YXYCheckBoxView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9A196465202C3EFC00A3DC8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YXYCheckBoxViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yangxiaoyu.YXYCheckBoxViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YXYCheckBoxView.app/YXYCheckBoxView";
+			};
+			name = Debug;
+		};
+		9A196466202C3EFC00A3DC8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YXYCheckBoxViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yangxiaoyu.YXYCheckBoxViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YXYCheckBoxView.app/YXYCheckBoxView";
+			};
+			name = Release;
+		};
+		9A196468202C3EFC00A3DC8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YXYCheckBoxViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yangxiaoyu.YXYCheckBoxViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YXYCheckBoxView;
+			};
+			name = Debug;
+		};
+		9A196469202C3EFC00A3DC8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YXYCheckBoxViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yangxiaoyu.YXYCheckBoxViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YXYCheckBoxView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A196430202C3EFC00A3DC8C /* Build configuration list for PBXProject "YXYCheckBoxView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A19645F202C3EFC00A3DC8C /* Debug */,
+				9A196460202C3EFC00A3DC8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A196461202C3EFC00A3DC8C /* Build configuration list for PBXNativeTarget "YXYCheckBoxView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A196462202C3EFC00A3DC8C /* Debug */,
+				9A196463202C3EFC00A3DC8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A196464202C3EFC00A3DC8C /* Build configuration list for PBXNativeTarget "YXYCheckBoxViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A196465202C3EFC00A3DC8C /* Debug */,
+				9A196466202C3EFC00A3DC8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A196467202C3EFC00A3DC8C /* Build configuration list for PBXNativeTarget "YXYCheckBoxViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A196468202C3EFC00A3DC8C /* Debug */,
+				9A196469202C3EFC00A3DC8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A19642D202C3EFC00A3DC8C /* Project object */;
+}
