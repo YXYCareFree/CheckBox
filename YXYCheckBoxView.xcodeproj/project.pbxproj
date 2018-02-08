@@ -15,6 +15,8 @@
 		9A196448202C3EFC00A3DC8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A196447202C3EFC00A3DC8C /* main.m */; };
 		9A196452202C3EFC00A3DC8C /* YXYCheckBoxViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A196451202C3EFC00A3DC8C /* YXYCheckBoxViewTests.m */; };
 		9A19645D202C3EFC00A3DC8C /* YXYCheckBoxViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A19645C202C3EFC00A3DC8C /* YXYCheckBoxViewUITests.m */; };
+		9A19646C202C400D00A3DC8C /* YXYCheckBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A19646A202C400C00A3DC8C /* YXYCheckBoxView.m */; };
+		9A19646E202C428700A3DC8C /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A19646D202C428700A3DC8C /* correct.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		9A196458202C3EFC00A3DC8C /* YXYCheckBoxViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXYCheckBoxViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A19645C202C3EFC00A3DC8C /* YXYCheckBoxViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYCheckBoxViewUITests.m; sourceTree = "<group>"; };
 		9A19645E202C3EFC00A3DC8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A19646A202C400C00A3DC8C /* YXYCheckBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXYCheckBoxView.m; sourceTree = "<group>"; };
+		9A19646B202C400D00A3DC8C /* YXYCheckBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXYCheckBoxView.h; sourceTree = "<group>"; };
+		9A19646D202C428700A3DC8C /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,9 @@
 		9A196437202C3EFC00A3DC8C /* YXYCheckBoxView */ = {
 			isa = PBXGroup;
 			children = (
+				9A19646D202C428700A3DC8C /* correct.png */,
+				9A19646B202C400D00A3DC8C /* YXYCheckBoxView.h */,
+				9A19646A202C400C00A3DC8C /* YXYCheckBoxView.m */,
 				9A196438202C3EFC00A3DC8C /* AppDelegate.h */,
 				9A196439202C3EFC00A3DC8C /* AppDelegate.m */,
 				9A19643B202C3EFC00A3DC8C /* ViewController.h */,
@@ -238,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A19646E202C428700A3DC8C /* correct.png in Resources */,
 				9A196445202C3EFC00A3DC8C /* LaunchScreen.storyboard in Resources */,
 				9A196442202C3EFC00A3DC8C /* Assets.xcassets in Resources */,
 				9A196440202C3EFC00A3DC8C /* Main.storyboard in Resources */,
@@ -265,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A19646C202C400D00A3DC8C /* YXYCheckBoxView.m in Sources */,
 				9A19643D202C3EFC00A3DC8C /* ViewController.m in Sources */,
 				9A196448202C3EFC00A3DC8C /* main.m in Sources */,
 				9A19643A202C3EFC00A3DC8C /* AppDelegate.m in Sources */,
